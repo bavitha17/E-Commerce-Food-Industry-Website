@@ -1,0 +1,8 @@
+mysql.createConnection({
+    host:"localhost",
+    user:"root",
+    password:"",
+    database:"node_project"
+})
+
+res.render('pages/index');
